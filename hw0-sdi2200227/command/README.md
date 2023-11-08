@@ -17,3 +17,5 @@
 **Bandit8:** "cat data.txt | grep ^millionth". The command used is to cat data.txt file and print only the line that started (using ^ followed by) millionth as instructed.  
 
 **Bandit9:** "cat data.txt | sort | uniq -u". The command used is to cat data.txt file, sort it and print the only line that didn't have any duplicates (using the command uniq, with option -u).  
+
+**Bandit10:** "strings data.txt | grep ="
