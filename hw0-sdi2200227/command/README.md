@@ -15,3 +15,5 @@
 **Bandit7:** Password was in the path "/var/lib/dkpg/info/" and the file name was "bandit7.password". The absolute path therefore is "/var/lib/dkpg/info/bandit7.password". The command used looks a lot like the previous one, but we check in the group six.  
 
 **Bandit8:** "cat data.txt | grep ^millionth". The command used is to cat data.txt file and print only the line that started (using ^ followed by) millionth as instructed.  
+
+**Bandit9:** "cat data.txt | sort | uniq -u". The command used is to cat data.txt file, sort it and print the only line that didn't have any duplicates (using the command uniq, with option -u).  
